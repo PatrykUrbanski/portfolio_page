@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc36748c-99c9-416d-bb4d-815468fbaf04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/fta1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/ftaStrategies.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/ftwJournal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/projects/noOnesShoes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/nos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects/projectsData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/followTheAlpha.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/followTheAlpha.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fta1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/ftaStrategies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/ftwJournal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/followTheAlpha.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/noOnesShoes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/projects.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/elements/_projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_projects.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -47,8 +49,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/public/assets" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/scss/elements" />
@@ -81,7 +83,7 @@
       <updated>1591004864912</updated>
       <workItem from="1591004866545" duration="12229000" />
       <workItem from="1591088425154" duration="4068000" />
-      <workItem from="1591092503965" duration="21026000" />
+      <workItem from="1591092503965" duration="24533000" />
     </task>
     <servers />
   </component>
@@ -93,18 +95,18 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="641" y="344" width="628" height="390" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591097848434" />
-    <state x="726" y="320" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591005417857">
+    <state x="726" y="320" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591121515679">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="726" y="320" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591005417857" />
+    <state x="726" y="320" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591121515679" />
     <state x="2646" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591005050753" />
     <state x="452" y="249" width="908" height="445" key="EditFileWatcherDialog" timestamp="1591005356641">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="452" y="249" width="908" height="445" key="EditFileWatcherDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591005356641" />
-    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591092154351">
+    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591121412079">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591092154351" />
+    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591121412079" />
   </component>
 </project>

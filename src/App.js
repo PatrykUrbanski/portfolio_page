@@ -3,20 +3,18 @@ import {Header} from "./components/header/header";
 import {LandingPage} from "./components/landingPage/landingPage";
 import ReactPageScroller from "react-page-scroller";
 import {Footer} from "./components/footer/footer";
-import {Projects} from "./components/projects/projects";
-import {FollowTheAlpha} from "./components/projects/followTheAlpha";
-import {NoOnesShoes} from "./components/projects/noOnesShoes";
+import {Project} from "./components/projects/project";
+import {followTheAlpha, noOnesShoes} from "./components/projects/projectsData";
 
 
 function App() {
   return (
       <>
           <Header/>
-
         <ReactPageScroller>
           <LandingPage />
-          <FollowTheAlpha/>
-          <NoOnesShoes/>
+          <Project project={followTheAlpha} />
+          <Project project={noOnesShoes} />
         </ReactPageScroller>
           <Footer/>
       </>
