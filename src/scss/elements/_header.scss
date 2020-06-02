@@ -1,0 +1,66 @@
+.header {
+  height: 90px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  background: transparent;
+  width: 100%;
+
+  &__menuIcon {
+    position: absolute;
+    right: 1vw;
+    top: 5vh;
+    z-index: 4;
+
+    &__elem {
+      height: 5px;
+      width: 40px;
+      background: black;
+      display: block;
+      margin: 5px 0 5px 0;
+      transition: .3s ease-in-out;
+
+    }
+  }
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 14vh;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: right;
+    margin-right: 1vw;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    z-index: 5;
+    transition: .8s;
+
+    &__elem {
+      text-decoration: none;
+      color: black;
+      margin-bottom: 30px;
+      position: relative;
+      &::before {
+        content: "";
+        height: 3px;
+        width: 0%;
+        position: absolute;
+        top: 50%;
+        background: red;
+        transition: .3s;
+      }
+      &:hover::before {
+        width: 100%;
+      }
+    }
+
+    &.show {
+      height: 300px;
+      opacity: 1;
+      color: white;
+    }
+  }
+}
