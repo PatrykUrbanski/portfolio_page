@@ -1,14 +1,12 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 export const Footer = () => {
     return (
         <>
             <footer className={"footer"}>
-                <div className={"footer__content"}>
-                    <i className="fab fa-github-square"/>
-                    <i className="fab fa-facebook-square"/>
-                    <i className="fab fa-linkedin"/>
-                </div>
+                <i className="fab fa-github-square footer__elem"/>
+                <i className="fab fa-facebook-square footer__elem"/>
+                <i className="fab fa-linkedin footer__elem"/>
             </footer>
 
         </>
