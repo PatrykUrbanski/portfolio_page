@@ -1,13 +1,20 @@
 .projects {
-  background: $mainText;
-  height: 100%;
+  background: $mainBg;
+  height: 100vh;
   width: 100%;
   color: $mainBg;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 3;
 
   &__content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 10px;
+    z-index: 5;
     @include tablet {
       flex-direction: row;
     }
@@ -17,11 +24,13 @@
       width: 100%;
 
       .box {
-        height: 300px;
-        width: 210px;
+        height: 200px;
+        width: 140px;
         margin-top: 40px;
         position: relative;
         transition: .7s;
+        background: url("../../assets/ftwJournal.png");
+        background-size: cover;
 
         &__bgSlider {
           height: 100%;
@@ -32,13 +41,6 @@
           z-index: 4;
           animation: heightSlider .6s ease-in-out;
           animation-fill-mode: both;
-        }
-
-        img {
-          height: 100%;
-          width: 100%;
-          z-index: 1;
-          opacity: 1;
         }
 
         &__imageInfo {
@@ -54,15 +56,15 @@
           transition: .3s;
           background: rgba(35, 35, 35, .7);
           z-index: 8;
-          animation: pulse 3s infinite;
           &:hover {
             opacity: 1;
           }
 
-
           &__text {
             font-size: 20px;
             font-weight: 500;
+            cursor: pointer;
+            animation: pulse 3s infinite;
           }
         }
 
@@ -74,6 +76,8 @@
           opacity: 0;
           display: none;
           transition: 4s;
+          background: rgba(35, 35, 35, .9);
+          height: 100%;
 
           &__icons {
             font-size: 70px;
@@ -117,13 +121,24 @@
         }
         &__backBtn {
           position: absolute;
-          bottom: 5vh;
+          bottom: 3vh;
           left: 5vw;
           cursor: pointer;
           z-index: 10;
+          border: none;
+          background: transparent;
+          color: $mainBg;
+          font-size: 30px;
 
         }
       }
     }
   }
+  &__number {
+    color: $mainText;
+    font-size: 70px;
+    text-align: right;
+    margin-top: 40px;
+  }
 }
+

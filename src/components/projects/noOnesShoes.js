@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-export const FollowTheAlpha = () => {
+export const NoOnesShoes = () => {
     const [fullPageTeaser, setFullPageTeaser] = useState(false);
 
     const handleToggleFullPage = () => {
@@ -49,7 +49,7 @@ export const FollowTheAlpha = () => {
                                 <i className="fas fa-arrow-circle-left"/>
                             </button>
                         </div>
-                        <div className={"projects__number"}>.01</div>
+                        <div className={"projects__number"}>.02</div>
                     </div>
                 </div>
             </div>
