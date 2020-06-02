@@ -16,6 +16,7 @@ export const Header = () => {
                     <span className={"header__menuIcon__elem"} style={{transform: `${openMenu ? "rotate(45deg)" : "none"}`}}/>
                     <span className={"header__menuIcon__elem"} style={{opacity: `${openMenu ? "0" : "1"}`}}/>
                 </div>
+                <div className={`menuBg ${openMenu && "bgShow"}`}/>
                 <div className={`header__menu ${openMenu && "show"}`}>
                     <a className={"header__menu__elem"} href={"#"}>Logo</a>
                     <a className={"header__menu__elem"} href={"#"}>Project</a>

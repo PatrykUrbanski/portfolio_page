@@ -10,12 +10,12 @@
     position: absolute;
     right: 1vw;
     top: 5vh;
-    z-index: 4;
+    z-index: 10;
 
     &__elem {
       height: 5px;
       width: 40px;
-      background: black;
+      background: $mainText;
       display: block;
       margin: 5px 0 5px 0;
       transition: .3s ease-in-out;
@@ -35,22 +35,24 @@
     overflow: hidden;
     height: 0;
     opacity: 0;
-    z-index: 5;
     transition: .8s;
+    z-index: 10;
 
     &__elem {
       text-decoration: none;
-      color: black;
+      color: $mainText;
       margin-bottom: 30px;
       position: relative;
+
       &::before {
         content: "";
         height: 3px;
-        width: 0%;
+        width: 0;
         position: absolute;
         top: 50%;
-        background: red;
+        background: $mainBg;
         transition: .3s;
+
       }
       &:hover::before {
         width: 100%;
@@ -60,7 +62,27 @@
     &.show {
       height: 300px;
       opacity: 1;
-      color: white;
     }
   }
+  .menuBg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    z-index: 9;
+    background: $mainBg;
+    border-radius: 30%;
+    transition: .5s;
+    opacity: .9;
+    @include tablet {
+      display: none;
+    }
+  }
+
+  .bgShow {
+    height: 100vh;
+    width: 100%;
+  }
 }
+

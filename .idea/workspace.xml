@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc36748c-99c9-416d-bb4d-815468fbaf04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/fta1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/ftaStrategies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/ftwJournal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects/followTheAlpha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects/projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/elements/_projects.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landingPage/landingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingPage/landingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/elements/_footerElem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_footerElem.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/elements/_headerElem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_headerElem.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/elements/_landingPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_landingPage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/generic/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/generic/_all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/settings/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_colors.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../followReact" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -41,6 +52,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/scss/elements" />
     </key>
@@ -72,7 +86,7 @@
       <updated>1591004864912</updated>
       <workItem from="1591004866545" duration="12229000" />
       <workItem from="1591088425154" duration="4068000" />
-      <workItem from="1591092503965" duration="2629000" />
+      <workItem from="1591092503965" duration="16852000" />
     </task>
     <servers />
   </component>
@@ -80,10 +94,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="641" y="344" width="628" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591092355241">
+    <state x="641" y="344" width="628" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591097848434">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="641" y="344" width="628" height="390" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591092355241" />
+    <state x="641" y="344" width="628" height="390" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591097848434" />
     <state x="726" y="320" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591005417857">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
