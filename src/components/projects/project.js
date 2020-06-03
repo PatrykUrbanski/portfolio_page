@@ -1,8 +1,12 @@
 import React, {useState} from 'react';
+import Reveal from 'react-reveal/Reveal';
+
+const uniqid = require('uniqid');
+
+
 
 export const Project = ({project}) => {
     const [fullPageTeaser, setFullPageTeaser] = useState(false);
-
     const handleToggleFullPage = () => {
         setFullPageTeaser(!fullPageTeaser);
     };
@@ -12,13 +16,16 @@ export const Project = ({project}) => {
         <>
             <div className={"projects"}>
                 <div className={"projects__content"}>
+                    <Reveal effect={"opacityAnimationSliders"}>
                     <div className={"projects__content__teaser"}>
                         <div className={`box`} style={{height: `${fullPageTeaser ? "90vh" : "400px"}`, width: `${fullPageTeaser ? "90vw" : "280px"}`, backgroundImage: `url(${project.image})`}}>
-                            <div className={"box__bgSlider"}/>
+                            <Reveal effect={"heightSlider"}>
+                            <div className={`box__bgSlider`} />
+                            </Reveal>
                             <div className={"box__imageInfo"} style={{display: `${fullPageTeaser ? "none" : "flex"}`}}>
                                 <span className={"box__imageInfo__text"} onClick={handleToggleFullPage}>{project.name}</span>
                             </div>
-                            <div className={"box__content"} style={{display: `${fullPageTeaser ? "block" : "none"}`, opacity: `${fullPageTeaser ? "1" : "0"}`}}>
+                            <div className={`box__content ${fullPageTeaser ? "opacityAnimation" : "none"}`} style={{display: `${fullPageTeaser ? "block" : "none"}`}}>
                                 <div className={"box__content__icons"}>
                                     <a href={project.github} className={"box__content__icons__elem"}>
                                         <i className="fab fa-github" />
@@ -33,7 +40,7 @@ export const Project = ({project}) => {
                                         {project.description}
                                     </div>
                                     <ul className={"title__details__elem list"}>Tech stack & tools:
-                                        {project.tech.map(el => <li>{el}</li>)}
+                                        {project.tech.map(el => <li key={uniqid()}>{el}</li>)}
                                     </ul>
                                 </div>
                             </div>
@@ -42,16 +49,18 @@ export const Project = ({project}) => {
                             </button>
                         </div>
                         <div className={"projects__titles"}>
+                            <Reveal effect={"widthSlider"}>
+                            <div className={"projects__titles__slider"} />
+                            </Reveal>
                             <div className={"name"}>
-                                {project.logo.map(el => <span className={"name__elem"}>{el}</span> )}
+                                {project.logo.map(el => <span key={uniqid()} className={"name__elem"}>{el}</span> )}
                             </div>
                             <div className={"number"}>{project.number}</div>
                         </div>
-
-
                     </div>
+                    </Reveal>
                 </div>
             </div>
         </>
     )
-}
+};

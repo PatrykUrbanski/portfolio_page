@@ -46,8 +46,6 @@
           top: 0;
           background: $mainBg;
           z-index: 4;
-          animation: heightSlider .6s ease-in-out;
-          animation-fill-mode: both;
         }
 
         &__imageInfo {
@@ -82,9 +80,11 @@
           margin-left: 5px;
           opacity: 0;
           display: none;
-          transition: 4s;
           background: rgba(35, 35, 35, .9);
           height: 100%;
+          @include tablet {
+            margin-left: 20px;
+          }
 
           &__icons {
             font-size: 70px;
@@ -169,6 +169,17 @@
   }
   &__titles {
     font-size: 120px;
+    position: relative;
+
+    &__slider {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: $mainBg;
+      top: 0;
+      right: 0;
+    }
+
     .name {
       color: $mainText;
       display: none;
@@ -192,3 +203,24 @@
   }
 }
 
+.opacityAnimation {
+  animation: opacityAnimation 2s;
+  animation-fill-mode: both;
+}
+
+.opacityAnimationSliders {
+  animation: opacityAnimation 1s;
+  animation-fill-mode: both;
+}
+
+.widthSlider {
+  animation: widthSlider 1.3s ease-in;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+.heightSlider {
+  animation: heightSlider 1.3s ease-in;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}

@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc36748c-99c9-416d-bb4d-815468fbaf04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/nos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/projects/projectsData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/about/aboutSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/fta1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/ftaStrategies.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/ftwJournal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/followTheAlpha.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/noOnesShoes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/projects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/elements/_landingPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_landingPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/elements/_projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/generic/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/generic/_all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/generic/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/generic/_animations.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../followReact" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -83,7 +82,8 @@
       <updated>1591004864912</updated>
       <workItem from="1591004866545" duration="12229000" />
       <workItem from="1591088425154" duration="4068000" />
-      <workItem from="1591092503965" duration="24533000" />
+      <workItem from="1591092503965" duration="25142000" />
+      <workItem from="1591174844994" duration="12465000" />
     </task>
     <servers />
   </component>
@@ -91,10 +91,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="641" y="344" width="628" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591097848434">
+    <state x="641" y="344" width="628" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591181793884">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="641" y="344" width="628" height="390" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591097848434" />
+    <state x="641" y="344" width="628" height="390" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591181793884" />
     <state x="726" y="320" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591121515679">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -104,9 +104,9 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="452" y="249" width="908" height="445" key="EditFileWatcherDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591005356641" />
-    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591121412079">
+    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591186060368">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591121412079" />
+    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591186060368" />
   </component>
 </project>

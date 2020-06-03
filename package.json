@@ -9,8 +9,12 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-on-screen": "^2.1.1",
     "react-page-scroller": "^2.0.7-beta",
-    "react-scripts": "3.4.1"
+    "react-reveal": "^1.2.2",
+    "react-scripts": "3.4.1",
+    "react-visibility-sensor": "^5.1.1",
+    "uniqid": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",

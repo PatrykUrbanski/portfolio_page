@@ -5,6 +5,7 @@ import ReactPageScroller from "react-page-scroller";
 import {Footer} from "./components/footer/footer";
 import {Project} from "./components/projects/project";
 import {followTheAlpha, noOnesShoes} from "./components/projects/projectsData";
+import {About} from "./components/about/aboutSection";
 
 
 function App() {
@@ -12,9 +13,10 @@ function App() {
       <>
           <Header/>
         <ReactPageScroller>
-          <LandingPage />
-          <Project project={followTheAlpha} />
-          <Project project={noOnesShoes} />
+            <LandingPage />
+            <About />
+            <Project project={followTheAlpha} />
+            <Project project={noOnesShoes} />
         </ReactPageScroller>
           <Footer/>
       </>

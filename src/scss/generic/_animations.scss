@@ -55,5 +55,13 @@
   100% {
     transform: scale(1);
   }
+}
 
+@keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
