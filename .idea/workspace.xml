@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc36748c-99c9-416d-bb4d-815468fbaf04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/about/aboutSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/elements/_aboutSection.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/elements/_landingPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_landingPage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/aboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/aboutSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/elements/_projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_projects.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/generic/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/generic/_all.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/generic/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/generic/_animations.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,7 @@
       <workItem from="1591004866545" duration="12229000" />
       <workItem from="1591088425154" duration="4068000" />
       <workItem from="1591092503965" duration="25142000" />
-      <workItem from="1591174844994" duration="12465000" />
+      <workItem from="1591174844994" duration="21657000" />
     </task>
     <servers />
   </component>
@@ -108,5 +105,9 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591186060368" />
+    <state x="623" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1591196789401">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="237" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591196789401" />
   </component>
 </project>
