@@ -7,6 +7,9 @@
     width: 100%;
     margin: 0 3vw;
     padding-top: 10vh;
+    @media (max-width: 330px) {
+      padding-top: 3vh;
+    }
 
     &__title {
       font-size: 70px;
@@ -26,7 +29,10 @@
       }
 
       &__head {
+        width: 95vw;
         margin-bottom: 5px;
+        font-size: 20px;
+        margin-top: 10px;
 
       }
       .subtitles {

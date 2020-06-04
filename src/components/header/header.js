@@ -27,7 +27,10 @@ export const Header = ({pageChanger}) => {
                 <div className={`header__menu ${openMenu && "show"}`}>
                     <a className={"header__menu__elem"} href={"0"} onClick={e => {handleNavClick(e, e.target)}}>Start</a>
                     <a className={"header__menu__elem"} href={"1"} onClick={e => {handleNavClick(e, e.target)}}>About</a>
-                    <a className={"header__menu__elem"} href={"2"} onClick={e => {handleNavClick(e, e.target)}}>Project</a>
+                    <a className={"header__menu__elem project"} href={"2"} onClick={event => event.preventDefault()}>Projects
+                        <a className={"header__menu__elem projectName"} href={"2"} onClick={e => {handleNavClick(e, e.target)}}>Follow the Alpha</a>
+                        <a className={"header__menu__elem projectName"} href={"3"} onClick={e => {handleNavClick(e, e.target)}}>No one's shoes</a>
+                    </a>
                     <a className={"header__menu__elem"} href={"4"} onClick={e => {handleNavClick(e, e.target)}}>Contact</a>
                 </div>
             </header>
