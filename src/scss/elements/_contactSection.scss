@@ -1,0 +1,173 @@
+.contact {
+  width: 100%;
+  height: 100vh;
+
+  &__content {
+    height: 100%;
+    width: 100%;
+    margin: 0 3vw;
+    padding-top: 10vh;
+    @media (max-width: 330px) {
+      padding-top: 3vh;
+    }
+
+    &__title {
+      font-size: 70px;
+      font-weight: 500;
+      align-self: flex-start;
+      opacity: .8;
+      width: 95vw;
+      @include tablet {
+        font-size: 120px;
+      }
+    }
+
+    &__details {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+
+      &__elem {
+        padding: 20px 7px;
+        font-size: 20px;
+        color: $mainText;
+        text-decoration: none;
+        letter-spacing: 3px;
+        width: 90vw;
+        position: relative;
+        @include tablet {
+          font-size: 30px;
+          letter-spacing: 5px;
+          padding: 30px 10px;
+        }
+
+        &:nth-of-type(1) {
+          width: 350px;
+          @include tablet {
+            width: 520px;
+          }
+        }
+
+        &:nth-of-type(n + 2) {
+          width: 180px;
+          @include tablet {
+            width: 300px;
+          }
+        }
+
+        &:nth-of-type(1) {
+          &::before {
+            content: "";
+            height: 2px;
+            width: 0;
+            right: 0;
+            top: 0;
+            position: absolute;
+            background: $mainText;
+            animation: nameBorder--horizontal .2s linear;
+            animation-fill-mode: both;
+            animation-delay: 1.4s;
+          }
+
+          &::after {
+            content: "";
+            height: 0;
+            width: 2px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: $mainText;
+            animation: nameBorder--vertical .2s linear;
+            animation-fill-mode: both;
+            animation-delay: 1.6s;
+          }
+
+        }
+          &:nth-of-type(2) {
+            &::before {
+              content: "";
+              height: 2px;
+              width: 0;
+              left: 0;
+              top: 0;
+              position: absolute;
+              background: $mainText;
+              animation: nameBorder--horizontal .2s linear;
+              animation-fill-mode: both;
+              animation-delay: 1.8s;
+            }
+
+            &::after {
+              content: "";
+              height: 0;
+              width: 2px;
+              position: absolute;
+              right: 0;
+              top: 0;
+              background: $mainText;
+              animation: nameBorder--vertical .2s linear;
+              animation-fill-mode: both;
+              animation-delay: 2s;
+            }
+          }
+
+          &:nth-of-type(3) {
+            &::before {
+              content: "";
+              height: 2px;
+              width: 0;
+              right: 0;
+              top: 0;
+              position: absolute;
+              background: $mainText;
+              animation: nameBorder--horizontal .2s linear;
+              animation-fill-mode: both;
+              animation-delay: 2.2s;
+            }
+
+            &::after {
+              content: "";
+              height: 0;
+              width: 2px;
+              position: absolute;
+              left: 0;
+              top: 0;
+              background: $mainText;
+              animation: nameBorder--vertical .2s linear;
+              animation-fill-mode: both;
+              animation-delay: 2.4s;
+            }
+          }
+
+          &:nth-of-type(4) {
+            &::before {
+              content: "";
+              height: 2px;
+              width: 0;
+              left: 0;
+              top: 0;
+              position: absolute;
+              background: $mainText;
+              animation: nameBorder--horizontal .2s linear;
+              animation-fill-mode: both;
+              animation-delay: 2.6s;
+            }
+
+            &::after {
+              content: "";
+              height: 0;
+              width: 2px;
+              position: absolute;
+              right: 0;
+              top: 0;
+              background: $mainText;
+              animation: nameBorder--vertical .2s linear;
+              animation-fill-mode: both;
+              animation-delay: 2.8s;
+            }
+          }
+        }
+      }
+    }
+  }
+

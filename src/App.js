@@ -6,6 +6,7 @@ import {Footer} from "./components/footer/footer";
 import {Project} from "./components/projects/project";
 import {followTheAlpha, noOnesShoes} from "./components/projects/projectsData";
 import {About} from "./components/about/aboutSection";
+import {ContactSection} from "./components/contact/contactSection";
 
 
 export const App = () => {
@@ -21,13 +22,14 @@ export const App = () => {
 
     return (
       <>
-          <Header pageChanger={pageChanger}/>
-        <ReactPageScroller pageOnChange={handlePageChange} customPageNumber={currentPage}>
-            <LandingPage />
-            <About />
-            <Project project={followTheAlpha} />
-            <Project project={noOnesShoes} />
-        </ReactPageScroller>
+          <Header pageChanger={pageChanger} />
+            <ReactPageScroller pageOnChange={handlePageChange} customPageNumber={currentPage}>
+                <LandingPage />
+                <About />
+                <Project project={followTheAlpha} />
+                <Project project={noOnesShoes} />
+                <ContactSection />
+            </ReactPageScroller>
           <Footer/>
       </>
     );

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Reveal from 'react-reveal/Reveal';
-import { Element } from "react-scroll"
+
 
 const uniqid = require('uniqid');
 
@@ -15,7 +15,6 @@ export const Project = ({project}) => {
 
     return (
         <>
-            <Element name={"projects"} />
             <div className={"projects"}>
                 <div className={"projects__content"}>
                     <Reveal effect={"opacityAnimationSliders"}>

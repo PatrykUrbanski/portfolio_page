@@ -1,10 +1,8 @@
 import React from 'react';
-import { Element } from "react-scroll"
 
 export const LandingPage = () => {
     return (
         <>
-            <Element name={"start"}/>
             <main className={"landingPage"}>
                 <div className={"landingPage__content"}>
                     <div className={"title"}>
@@ -17,6 +15,9 @@ export const LandingPage = () => {
                             <div className={"title__profession__subSlider"} />
                             <div className={"title__profession__slider"} />
                         </div>
+                    </div>
+                    <div className={"landingPage__content__arrow"}>
+                        <span className={"arrowPart"}/>
                     </div>
                 </div>
             </main>

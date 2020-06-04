@@ -8,7 +8,6 @@ export const Footer = () => {
                 <i className="fab fa-facebook-square footer__elem"/>
                 <i className="fab fa-linkedin footer__elem"/>
             </footer>
-
         </>
     )
 }

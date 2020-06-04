@@ -1,17 +1,15 @@
 import React from 'react';
 import Reveal from 'react-reveal/Reveal';
 import Fade from 'react-reveal/Fade'
-import {Element} from "react-scroll"
 
 export const About = () => {
 
 
     return (
         <>
-            <div id={"about"} />
             <section className={"about"}>
                 <div className={"about__content"}>
-                    <h2 className={"about__content__title"}>About</h2>
+                    <h2 className={"about__content__title"}>About.</h2>
                     <div className={"about__content__subtitle"}>
                         <h3 className={"about__content__subtitle__head"}>Junior Front-end Developer based in Wroclaw, PL</h3>
                         <div className={"about__content__subtitle__head"}>Driven by:</div>

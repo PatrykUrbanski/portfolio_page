@@ -28,7 +28,7 @@ $nameBackgroundHeight: calc(50% - 200px / 2);
         height: 50vh;
         font-size: 70px;
         @include tablet {
-          font-size: 100px;
+          font-size: 120px;
         }
         @media (max-width: 330px) {
           font-size: 50px;
@@ -153,7 +153,44 @@ $nameBackgroundHeight: calc(50% - 200px / 2);
           animation-fill-mode: both;
         }
       }
+    }
+    &__arrow {
+      position: absolute;
+      bottom: 10vh;
+      left: calc(50vw - 60px / 2);
+      .arrowPart {
+        display: block;
+        position: relative;
+        width: 60px;
+        height: 60px;
+        transform: rotate(45deg);
+        &::before {
+          content: "";
+          height: 3px;
+          width: 100%;
+          left: 0;
+          bottom: 0;
+          position: absolute;
+          background: $mainText;
+          animation: nameBorder--horizontal .3s linear;
+          animation-fill-mode: both;
+          animation-delay: 2s;
 
+
+        }
+        &::after {
+          content: "";
+          height: 100%;
+          width: 3px;
+          right: 0;
+          bottom: 0;
+          position: absolute;
+          background: $mainText;
+          animation: nameBorder--vertical .3s linear;
+          animation-fill-mode: both;
+          animation-delay: 2.3s;
+        }
+      }
     }
   }
 }
