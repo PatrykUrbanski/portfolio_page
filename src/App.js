@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {Header} from "./components/header/header";
 import {LandingPage} from "./components/landingPage/landingPage";
 import ReactPageScroller from "react-page-scroller";
@@ -8,11 +8,21 @@ import {followTheAlpha, noOnesShoes} from "./components/projects/projectsData";
 import {About} from "./components/about/aboutSection";
 
 
-function App() {
-  return (
+export const App = () => {
+    const [currentPage, setCurrentPage] = useState("");
+
+    const handlePageChange = (number) => {
+        setCurrentPage(number)
+    };
+
+    const pageChanger = (number) => {
+        setCurrentPage(number)
+    };
+
+    return (
       <>
-          <Header/>
-        <ReactPageScroller>
+          <Header pageChanger={pageChanger}/>
+        <ReactPageScroller pageOnChange={handlePageChange} customPageNumber={currentPage}>
             <LandingPage />
             <About />
             <Project project={followTheAlpha} />
@@ -20,7 +30,7 @@ function App() {
         </ReactPageScroller>
           <Footer/>
       </>
-  );
-}
+    );
+};
 
-export default App;
+

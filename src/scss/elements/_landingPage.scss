@@ -9,6 +9,7 @@ $nameBackgroundHeight: calc(50% - 200px / 2);
     height: 100%;
     width: 100%;
     background: $mainBg;
+    margin: 0 3vw;
 
     .title {
       position: absolute;
@@ -16,7 +17,7 @@ $nameBackgroundHeight: calc(50% - 200px / 2);
       height: 100vh;
       width: 100%;
       @include tablet {
-        margin-left: 20px;
+        padding-left: 20px;
       }
 
       &__name {
@@ -29,6 +30,9 @@ $nameBackgroundHeight: calc(50% - 200px / 2);
         @include tablet {
           font-size: 100px;
         }
+        @media (max-width: 330px) {
+          font-size: 50px;
+        }
 
         &__slider {
           position: absolute;
@@ -36,6 +40,7 @@ $nameBackgroundHeight: calc(50% - 200px / 2);
           left: 0;
           right: 0;
           height: 100%;
+          width: 100%;
           z-index: 3;
           background: $mainText;
           animation: heightSlider .8s ease-in-out;
@@ -46,8 +51,12 @@ $nameBackgroundHeight: calc(50% - 200px / 2);
           position: absolute;
           bottom: 50px;
           z-index: 1;
-          padding-right: 10px;
           padding-bottom: 10px;
+          width: 95vw;
+          @include tablet {
+            width: auto;
+            padding-right: 10px;
+          }
           &::before {
             content: "";
             height: 0;
@@ -89,9 +98,10 @@ $nameBackgroundHeight: calc(50% - 200px / 2);
           color: $mainText;
           padding: 20px 10px;
           text-transform: uppercase;
-          width: 864px;
+          width: 95vw;
           @include tablet {
             font-size: 35px;
+            width: 864px;
           }
           &::before {
             content: "";

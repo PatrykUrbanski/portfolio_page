@@ -8,7 +8,7 @@
 
   &__menuIcon {
     position: absolute;
-    right: 1vw;
+    right: 3vw;
     top: 5vh;
     z-index: 10;
 
@@ -43,6 +43,7 @@
       color: $mainText;
       margin-bottom: 30px;
       position: relative;
+      cursor: pointer;
 
       &::before {
         content: "";

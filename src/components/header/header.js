@@ -1,10 +1,17 @@
 import React, {useState} from 'react';
 
-export const Header = () => {
+export const Header = ({pageChanger}) => {
     const [openMenu, setOpenMenu] = useState(false);
 
     const handleOpenMenu = () => {
         setOpenMenu(!openMenu)
+    };
+
+    const handleNavClick = (e) => {
+        e.preventDefault();
+        const number = e.target.getAttribute("href");
+        pageChanger(number);
+        handleOpenMenu();
     };
 
     return (
@@ -18,10 +25,10 @@ export const Header = () => {
                 </div>
                 <div className={`menuBg ${openMenu && "bgShow"}`}/>
                 <div className={`header__menu ${openMenu && "show"}`}>
-                    <a className={"header__menu__elem"} href={"#"}>Logo</a>
-                    <a className={"header__menu__elem"} href={"#"}>Project</a>
-                    <a className={"header__menu__elem"} href={"#"}>Contact</a>
-                    <a className={"header__menu__elem"} href={"#"}>Something</a>
+                    <a className={"header__menu__elem"} href={"0"} onClick={e => {handleNavClick(e, e.target)}}>Start</a>
+                    <a className={"header__menu__elem"} href={"1"} onClick={e => {handleNavClick(e, e.target)}}>About</a>
+                    <a className={"header__menu__elem"} href={"2"} onClick={e => {handleNavClick(e, e.target)}}>Project</a>
+                    <a className={"header__menu__elem"} href={"4"} onClick={e => {handleNavClick(e, e.target)}}>Contact</a>
                 </div>
             </header>
         </>
