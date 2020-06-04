@@ -28,10 +28,10 @@ export const Project = ({project}) => {
                             </div>
                             <div className={`box__content ${fullPageTeaser ? "opacityAnimation" : "none"}`} style={{display: `${fullPageTeaser ? "block" : "none"}`}}>
                                 <div className={"box__content__icons"}>
-                                    <a href={project.github} className={"box__content__icons__elem"}>
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer"  className={"box__content__icons__elem"}>
                                         <i className="fab fa-github" />
                                     </a>
-                                    <a href={project.live} className={"box__content__icons__elem"}>
+                                    <a href={project.live} target="_blank" rel="noopener noreferrer"  className={"box__content__icons__elem"}>
                                         <i className="fas fa-globe" />
                                     </a>
                                 </div>

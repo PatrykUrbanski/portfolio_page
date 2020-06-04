@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc36748c-99c9-416d-bb4d-815468fbaf04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/contact/contactSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/elements/_contactSection.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/aboutSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/aboutSection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/landingPage/landingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/landingPage/landingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/contactSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contactSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/projects/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/elements/_headerElem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_headerElem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/elements/_landingPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_landingPage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/elements/_projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/elements/_contactSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/elements/_contactSection.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +78,7 @@
       <workItem from="1591088425154" duration="4068000" />
       <workItem from="1591092503965" duration="25142000" />
       <workItem from="1591174844994" duration="24889000" />
-      <workItem from="1591262059379" duration="10439000" />
+      <workItem from="1591262059379" duration="11838000" />
     </task>
     <servers />
   </component>
