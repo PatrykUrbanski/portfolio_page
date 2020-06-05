@@ -2,7 +2,7 @@
   height: 90px;
   position: fixed;
   top: 0;
-  z-index: 3;
+  z-index: 20;
   background: transparent;
   width: 100%;
 
@@ -19,9 +19,9 @@
       display: block;
       margin: 5px 0 5px 0;
       transition: .3s ease-in-out;
-
     }
   }
+
   &__menu {
     display: flex;
     flex-direction: column;
@@ -93,6 +93,7 @@
       opacity: 1;
     }
   }
+
   .menuBg {
     position: absolute;
     top: 0;

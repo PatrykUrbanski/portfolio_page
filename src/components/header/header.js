@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
+import {Link as LinkScroll} from 'react-scroll'
 
-export const Header = ({pageChanger}) => {
+export const Header = ({pageChanger, isMobile}) => {
     const [openMenu, setOpenMenu] = useState(false);
 
     const handleOpenMenu = () => {
@@ -14,6 +15,7 @@ export const Header = ({pageChanger}) => {
         handleOpenMenu();
     };
 
+
     return (
         <>
             <header className={"header"}>
@@ -24,16 +26,53 @@ export const Header = ({pageChanger}) => {
                     <span className={"header__menuIcon__elem"} style={{opacity: `${openMenu ? "0" : "1"}`}}/>
                 </div>
                 <div className={`menuBg ${openMenu && "bgShow"}`}/>
-                <div className={`header__menu ${openMenu && "show"}`}>
-                    <a className={"header__menu__elem"} href={"0"} onClick={e => {handleNavClick(e, e.target)}}>Start</a>
-                    <a className={"header__menu__elem"} href={"1"} onClick={e => {handleNavClick(e, e.target)}}>About</a>
-                    <a className={"header__menu__elem project"} href={"2"} onClick={event => event.preventDefault()}>Projects
-                        <a className={"header__menu__elem projectName"} href={"2"} onClick={e => {handleNavClick(e, e.target)}}>Follow the Alpha</a>
-                        <a className={"header__menu__elem projectName"} href={"3"} onClick={e => {handleNavClick(e, e.target)}}>No one's shoes</a>
+
+
+                {!isMobile ? <div className={`header__menu ${openMenu && "show"}`}>
+                    <a className={"header__menu__elem"} href={"0"}
+                       onClick={e => {
+                           handleNavClick(e, e.target)
+                       }}>
+                        Start
                     </a>
-                    <a className={"header__menu__elem"} href={"4"} onClick={e => {handleNavClick(e, e.target)}}>Contact</a>
+                    <a className={"header__menu__elem"} href={"1"}
+                       onClick={e => {
+                           handleNavClick(e, e.target)
+                       }}>
+                        About
+                    </a>
+                    <div className={"header__menu__elem project"}>Projects
+                        <a className={"header__menu__elem projectName"} href={"2"}
+                           onClick={e => {
+                               handleNavClick(e, e.target)
+                           }}>
+                            Follow the Alpha
+                        </a>
+                        <a className={"header__menu__elem projectName"} href={"3"}
+                           onClick={e => {
+                               handleNavClick(e, e.target)
+                           }}>
+                            No one's shoes
+                        </a>
+                    </div>
+                    <a className={"header__menu__elem"} href={"4"}
+                       onClick={e => {
+                           handleNavClick(e, e.target)
+                       }}>
+                        Contact
+                    </a>
                 </div>
+                    : <div className={`header__menu ${openMenu && "show"}`}>
+                        <LinkScroll className={"header__menu__elem"} spy={true} smooth={true} to={"start"} containerId={"mobileTemplate"} onClick={handleOpenMenu}>Start</LinkScroll>
+                        <LinkScroll className={"header__menu__elem"} spy={true} smooth={true} to={"about"} containerId={"mobileTemplate"} onClick={handleOpenMenu}>About</LinkScroll>
+                        <div className={"header__menu__elem project"}>Projects
+                            <LinkScroll className={"header__menu__elem projectName"} spy={true} smooth={true} to={"followTheAlpha"} containerId={"mobileTemplate"} onClick={handleOpenMenu}>Follow the Alpha</LinkScroll>
+                            <LinkScroll className={"header__menu__elem projectName"} spy={true} smooth={true} to={"noOnesShoes"} containerId={"mobileTemplate"} onClick={handleOpenMenu}>No one's Shoes</LinkScroll>
+                        </div>
+                        <LinkScroll className={"header__menu__elem"} to={"contact"} spy={true} smooth={true} containerId={"mobileTemplate"} onClick={handleOpenMenu}>Contact</LinkScroll>
+                    </div>
+                }
             </header>
         </>
     )
-}
+};

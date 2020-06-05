@@ -84,25 +84,6 @@
   }
 }
 
-@keyframes subtitlesBg {
-  0% {
-    width: 0;
-    height: 0;
-  }
-  1% {
-    height: 1px;
-    width: 1%;
-  }
-  50% {
-    height: 1px;
-    width: 100%;
-  }
-  100% {
-    height: 100%;
-    width: 100%;
-  }
-}
-
 .subtitlesBg {
   &::after {
     content: "";
@@ -112,7 +93,7 @@
     bottom: 0;
     left: 0;
     background: $mainText;
-    animation: subtitlesBg 2s ease-in-out;
+    animation: subtitlesBg 1.6s ease-in-out;
     animation-delay: .5s;
     animation-fill-mode: both;
     z-index: -1;

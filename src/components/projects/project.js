@@ -27,14 +27,7 @@ export const Project = ({project}) => {
                                 <span className={"box__imageInfo__text"} onClick={handleToggleFullPage}>{project.name}</span>
                             </div>
                             <div className={`box__content ${fullPageTeaser ? "opacityAnimation" : "none"}`} style={{display: `${fullPageTeaser ? "block" : "none"}`}}>
-                                <div className={"box__content__icons"}>
-                                    <a href={project.github} target="_blank" rel="noopener noreferrer"  className={"box__content__icons__elem"}>
-                                        <i className="fab fa-github" />
-                                    </a>
-                                    <a href={project.live} target="_blank" rel="noopener noreferrer"  className={"box__content__icons__elem"}>
-                                        <i className="fas fa-globe" />
-                                    </a>
-                                </div>
+
                                 <div className={"title"}>{project.name}</div>
                                 <div className={"title__details"}>
                                     <div className={"title__details__elem"}>
@@ -43,6 +36,14 @@ export const Project = ({project}) => {
                                     <ul className={"title__details__elem list"}>Tech stack & tools:
                                         {project.tech.map(el => <li key={uniqid()}>{el}</li>)}
                                     </ul>
+                                </div>
+                                <div className={"box__content__icons"}>
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer"  className={"box__content__icons__elem"}>
+                                        <i className="fab fa-github" />
+                                    </a>
+                                    <a href={project.live} target="_blank" rel="noopener noreferrer"  className={"box__content__icons__elem"}>
+                                        <i className="fas fa-globe" />
+                                    </a>
                                 </div>
                             </div>
                             <button className={"box__backBtn"} style={{display: `${fullPageTeaser ? "block" : "none"}`}} onClick={handleToggleFullPage}>

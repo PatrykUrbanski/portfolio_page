@@ -1,9 +1,10 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade'
-
+import { Element } from 'react-scroll'
 export const ContactSection = () => {
     return (
         <>
+            <Element name={"contact"} />
             <section className={"contact"}>
                 <div className={"contact__content"}>
                     <h2 className={"contact__content__title"}>Contact me.</h2>

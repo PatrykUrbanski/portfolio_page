@@ -1,8 +1,10 @@
 import React from 'react';
+import { Element } from 'react-scroll'
 
 export const LandingPage = () => {
     return (
         <>
+            <Element name={"start"} />
             <main className={"landingPage"}>
                 <div className={"landingPage__content"}>
                     <div className={"title"}>
