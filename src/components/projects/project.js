@@ -1,11 +1,7 @@
 import React, {useState} from 'react';
 import Reveal from 'react-reveal/Reveal';
 
-
 const uniqid = require('uniqid');
-
-
-
 export const Project = ({project}) => {
     const [fullPageTeaser, setFullPageTeaser] = useState(false);
     const handleToggleFullPage = () => {

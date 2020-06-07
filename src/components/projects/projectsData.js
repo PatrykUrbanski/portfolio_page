@@ -9,7 +9,7 @@ export const followTheAlpha = {
         "                                        ETF’s.",
     tech: ["React (with ReactRouter, hooks)", "CSS3 / SASS", "WebPack", "Fetch API"],
     logo: ["Follow", "the", "Alpha"],
-    number: ".01",
+    number: ".02",
     github: "https://github.com/PatrykUrbanski/follow_the_alpha_React",
     live: "http://follow-the-alpha.surge.sh/",
     image: "/assets/ftwJournal.png"
@@ -23,8 +23,19 @@ export const noOnesShoes = {
         "logistics.",
     tech: ["React (with ReactRouter, contextApi hooks)", "CSS3 / SASS", "WebPack", "Fetch API", "Firebase"],
     logo: ["No", "one's", "shoes"],
-    number: ".02",
+    number: ".01",
     github: "https://github.com/PatrykUrbanski/no_one-s_shoes",
-    live: "#",
+    live: "https://no-ones-shoes.surge.sh",
     image: "/assets/nos.png"
+};
+
+export const portfolioPage = {
+    name: "Portfolio Page",
+    description:"Simple portfolio page, design in minimalistic and clean spirit. ",
+    tech: ["React", "CSS3 / SASS"],
+    logo: ["Portfolio", "page"],
+    number: ".03",
+    github: "https://github.com/PatrykUrbanski/portfolio_page",
+    live: "https://patryk-urbanski.surge.sh",
+    image: "/assets/portfolio.png"
 };

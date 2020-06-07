@@ -46,16 +46,22 @@ export const Header = ({pageChanger, isMobile}) => {
                            onClick={e => {
                                handleNavClick(e, e.target)
                            }}>
-                            Follow the Alpha
+                            No one's shoes
                         </a>
                         <a className={"header__menu__elem projectName"} href={"3"}
                            onClick={e => {
                                handleNavClick(e, e.target)
                            }}>
-                            No one's shoes
+                            Follow the Alpha
+                        </a>
+                        <a className={"header__menu__elem projectName"} href={"4"}
+                           onClick={e => {
+                               handleNavClick(e, e.target)
+                           }}>
+                            Portfolio Page
                         </a>
                     </div>
-                    <a className={"header__menu__elem"} href={"4"}
+                    <a className={"header__menu__elem"} href={"5"}
                        onClick={e => {
                            handleNavClick(e, e.target)
                        }}>
@@ -66,8 +72,9 @@ export const Header = ({pageChanger, isMobile}) => {
                         <LinkScroll className={"header__menu__elem"} spy={true} smooth={true} to={"start"} containerId={"mobileTemplate"} onClick={handleOpenMenu}>Start</LinkScroll>
                         <LinkScroll className={"header__menu__elem"} spy={true} smooth={true} to={"about"} containerId={"mobileTemplate"} onClick={handleOpenMenu}>About</LinkScroll>
                         <div className={"header__menu__elem project"}>Projects
-                            <LinkScroll className={"header__menu__elem projectName"} spy={true} smooth={true} to={"followTheAlpha"} containerId={"mobileTemplate"} onClick={handleOpenMenu}>Follow the Alpha</LinkScroll>
                             <LinkScroll className={"header__menu__elem projectName"} spy={true} smooth={true} to={"noOnesShoes"} containerId={"mobileTemplate"} onClick={handleOpenMenu}>No one's Shoes</LinkScroll>
+                            <LinkScroll className={"header__menu__elem projectName"} spy={true} smooth={true} to={"followTheAlpha"} containerId={"mobileTemplate"} onClick={handleOpenMenu}>Follow the Alpha</LinkScroll>
+                            <LinkScroll className={"header__menu__elem projectName"} spy={true} smooth={true} to={"portfolioPage"} containerId={"mobileTemplate"} onClick={handleOpenMenu}>Portfolio Page</LinkScroll>
                         </div>
                         <LinkScroll className={"header__menu__elem"} to={"contact"} spy={true} smooth={true} containerId={"mobileTemplate"} onClick={handleOpenMenu}>Contact</LinkScroll>
                     </div>

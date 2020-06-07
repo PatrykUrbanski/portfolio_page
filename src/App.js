@@ -4,7 +4,7 @@ import {LandingPage} from "./components/landingPage/landingPage";
 import ReactPageScroller from "react-page-scroller";
 import {Footer} from "./components/footer/footer";
 import {Project} from "./components/projects/project";
-import {followTheAlpha, noOnesShoes} from "./components/projects/projectsData";
+import {followTheAlpha, noOnesShoes, portfolioPage} from "./components/projects/projectsData";
 import {About} from "./components/about/aboutSection";
 import {ContactSection} from "./components/contact/contactSection";
 import {MobileTemplate} from "./components/main/mobileTemplate";
@@ -37,8 +37,9 @@ export const App = () => {
                <ReactPageScroller pageOnChange={handlePageChange} customPageNumber={currentPage}>
                    <LandingPage />
                    <About />
-                   <Project project={followTheAlpha} />
                    <Project project={noOnesShoes} />
+                   <Project project={followTheAlpha} />
+                   <Project project={portfolioPage} />
                    <ContactSection />
                </ReactPageScroller>
                 <Footer/>
