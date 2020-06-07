@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc36748c-99c9-416d-bb4d-815468fbaf04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/portfolio.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/mobileTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/mobileTemplate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects/projectsData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects/projectsData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/mobileTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mobileTemplate/mobileTemplate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -84,7 +81,7 @@
       <workItem from="1591348145748" duration="11566000" />
       <workItem from="1591521711218" duration="63000" />
       <workItem from="1591521995630" duration="1206000" />
-      <workItem from="1591537131458" duration="676000" />
+      <workItem from="1591537131458" duration="1419000" />
     </task>
     <servers />
   </component>
@@ -105,10 +102,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="452" y="249" width="908" height="445" key="EditFileWatcherDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591005356641" />
-    <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591521732102">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="2663" y="277" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591538548070">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="743" y="297" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1591521732102" />
+    <state x="2663" y="277" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591538548070" />
     <state x="623" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1591196789401">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

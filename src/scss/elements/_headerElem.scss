@@ -44,7 +44,7 @@
     &__elem {
       text-decoration: none;
       color: $mainText;
-      margin-bottom: 30px;
+      margin-bottom: 55px;
       position: relative;
       cursor: pointer;
       padding-right: 2vw;
@@ -89,7 +89,7 @@
     }
 
     &.show {
-      height: 300px;
+      height: 400px;
       opacity: 1;
     }
   }

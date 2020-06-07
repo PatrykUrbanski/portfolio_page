@@ -7,7 +7,7 @@ import {Project} from "./components/projects/project";
 import {followTheAlpha, noOnesShoes, portfolioPage} from "./components/projects/projectsData";
 import {About} from "./components/about/aboutSection";
 import {ContactSection} from "./components/contact/contactSection";
-import {MobileTemplate} from "./components/main/mobileTemplate";
+import {MobileTemplate} from "./components/mobileTemplate/mobileTemplate";
 import {useMediaQuery} from 'react-responsive';
 
 
